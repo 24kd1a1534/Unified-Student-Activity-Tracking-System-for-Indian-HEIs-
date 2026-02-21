@@ -1,0 +1,54 @@
+ /* Custom styles */
+    .status-badge {
+      font-weight: 600;
+      padding: 0.25em 0.6em;
+      border-radius: 0.35rem;
+      color: white;
+      font-size: 0.85rem;
+    }
+    .status-approved {
+      background-color: #198754; /* green */
+    }
+    .status-pending {
+      background-color: #ffc107; /* yellow */
+      color: #212529;
+    }
+    .status-rejected {
+      background-color: #dc3545; /* red */
+    }
+    .nav-link.active {
+      font-weight: 700;
+    }
+    .pointer {
+      cursor: pointer;
+    }
+    .badge-section {
+      margin-top: 1rem;
+    }
+    .badge {
+      font-size: 1rem;
+      margin-right: 0.5rem;
+    }
+    /* Responsive table container */
+    .table-responsive {
+      max-height: 400px;
+      overflow-y: auto;
+    }
+    /* Login screen */
+    .login-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #f8f9fa;
+    }
+    .login-card {
+      width: 100%;
+      max-width: 400px;
+      padding: 2rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    }
+    .dashboard-container {
+      display: none;
+    }
